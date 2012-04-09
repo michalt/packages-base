@@ -4,7 +4,7 @@
            , NondecreasingIndentation
            , MagicHash
   #-}
-{-# OPTIONS_GHC -funbox-strict-fields #-}
+{-# OPTIONS_GHC -fno-cse #-}
 
 -----------------------------------------------------------------------------
 -- |

@@ -3,7 +3,7 @@
            , BangPatterns
            , NondecreasingIndentation
   #-}
-{-# OPTIONS_GHC  -funbox-strict-fields #-}
+{-# OPTIONS_GHC -fno-cse #-}
 
 -----------------------------------------------------------------------------
 -- |
